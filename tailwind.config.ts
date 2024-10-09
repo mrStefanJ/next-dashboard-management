@@ -11,8 +11,16 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        lamaSky: "#c3ebfa",
+        lamaSkyLight: "#edf9fd",
+        lamaPurple: "#cfceff",
+        lamaPurpleLight: "#f1f0ff",
+        lamaYellow: "#fae27c",
+        lamaYellowLight: "#fefce8",
+      }
     },
   },
   plugins: [],
